@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+
+//////////////////////////////////////////////////////////////////////////////////
+// Day         : 02
+// Module Name : mux_2x1
+// Description : 2:1 Multiplexer
+//////////////////////////////////////////////////////////////////////////////////
+
+module mux_2x1 (
+    input i_a,
+    input i_b,
+    input i_sel,
+    output o_y
+);
+assign o_y = i_sel? i_b : i_a;
+    
+endmodule
