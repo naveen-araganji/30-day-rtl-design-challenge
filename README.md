@@ -4,6 +4,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 
 ## Progress
 - Day 01: Logic Gates
+- Day 02: Multiplexers implementation
 
 ## Tools
 - Verilog HDL
