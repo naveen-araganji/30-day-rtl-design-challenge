@@ -1,7 +1,7 @@
 # Day 03 - Decoders and Encoders
 
 ## Overview
-Implemented decoder and encoder circuits in Verilog HDL.
+This project implements decoder and encoder designs in Verilog HDL.
 
 Decoders and encoders are essential combinational logic circuits widely used in digital systems for signal selection, encoding, and priority-based decision making.
 
