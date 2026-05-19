@@ -1,7 +1,7 @@
 # Day 02 - Multiplexers
 
 ## Overview
-This project implements different types of multiplexers in Verilog HDL as part of the **30-Day RTL Design Challenge**.
+This project implements different types of multiplexers in Verilog HDL.
 
 Multiplexers are fundamental combinational logic blocks widely used in digital systems for data routing and selection.
 
