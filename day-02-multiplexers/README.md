@@ -44,3 +44,20 @@ mux_4x1_waveform.png
 mux_8x1_waveform.png
 mux_param_waveform.png
 README.md
+```
+
+---
+
+## Waveforms
+
+### 2:1 Multiplexer
+![2:1 Multiplexer](mux_2x1_waveform.png)
+
+### 4:1 Multiplexer
+![4:1 Multiplexer](mux_4x1_waveform.png)
+
+### 8:1 Multiplexer
+![8:1 Multiplexer](mux_8x1_waveform.png)
+
+### Parameterized 4:1 Multiplexer
+![Parameterized Multiplexer](mux_param_waveform.png)

@@ -50,8 +50,3 @@ README.md
 
 ### 4:2 Priority Encoder
 ![Priority Encoder](priority_encoder_waveform.png)
-
----
-
-## Challenge Progress
-Completed Day 03 of 30.
