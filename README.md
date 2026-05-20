@@ -6,6 +6,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 01: Logic Gates
 - Day 02: Multiplexers
 - Day 03: Decoders and Encoders
+- Day 04: Comparators
 
 ## Tools
 - Verilog HDL
