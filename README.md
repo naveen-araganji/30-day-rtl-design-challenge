@@ -9,6 +9,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 04: Comparators
 - Day 05: Adders
 - Day 06: Subtractors
+- Day 07: Arithmetic Logic Unit
 
 ## Tools
 - Verilog HDL
