@@ -8,6 +8,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 03: Decoders and Encoders
 - Day 04: Comparators
 - Day 05: Adders
+- Day 06: Substractors
 
 ## Tools
 - Verilog HDL
