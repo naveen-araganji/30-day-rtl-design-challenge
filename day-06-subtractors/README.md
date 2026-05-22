@@ -22,6 +22,8 @@ Subtractors are fundamental arithmetic building blocks widely used in digital sy
 
 ### 3. 4-bit Adder-Subtractor
 - Performs 4-bit addition and subtraction using mode control.
+- `i_mode = 0` → Addition
+- `i_mode = 1` → Subtraction
 - Implemented structurally using full adders.
 - Demonstrates two’s complement arithmetic and arithmetic operation selection.
 - Functional verification performed using addition, subtraction, carry, zero-result, and boundary test cases.
