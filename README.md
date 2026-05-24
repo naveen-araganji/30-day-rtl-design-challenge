@@ -10,6 +10,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 05: Adders
 - Day 06: Subtractors
 - Day 07: Arithmetic Logic Unit
+- Day 08: Latches and Flip-Flops
 
 ## Tools
 - Verilog HDL
