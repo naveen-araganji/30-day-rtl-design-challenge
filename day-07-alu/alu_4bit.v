@@ -15,7 +15,7 @@ module alu_4bit (
 );
 
 always @(*) begin
-    o_result = 1'b0000;
+    o_result = 4'b0000;
     o_cout   = 1'b0;
     
     case (i_opcode)

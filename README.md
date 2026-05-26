@@ -12,6 +12,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 07: Arithmetic Logic Unit
 - Day 08: Latches and Flip-Flops
 - Day 09: Registers
+- Day 10: Shift Registers
 
 ## Tools
 - Verilog HDL
