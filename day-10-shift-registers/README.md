@@ -1,7 +1,7 @@
 # Day 10 - Shift Registers
 
 ## Overview
-This project implements fundamental shift register designs in Verilog HDL.
+This project implements shift register designs in Verilog HDL.
 
 Shift registers are sequential logic circuits used to store and move data between flip-flops with each clock pulse. They are widely used in serial communication, data transfer, buffering, serializers, deserializers, and digital communication systems.
 

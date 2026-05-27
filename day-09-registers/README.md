@@ -1,7 +1,7 @@
 # Day 09 - Registers
 
 ## Overview
-This project implements fundamental register-based sequential logic circuits in Verilog HDL.
+This project implements register designs in Verilog HDL.
 
 Registers are essential storage elements in digital systems and are widely used in processors, datapaths, counters, finite state machines, and pipeline architectures.
 

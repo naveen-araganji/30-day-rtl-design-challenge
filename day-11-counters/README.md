@@ -1,7 +1,7 @@
 # Day 11 - Counters
 
 ## Overview
-This project implements fundamental counter-based sequential logic circuits in Verilog HDL.
+This project implements counter designs in Verilog HDL.
 
 Counters are essential sequential circuits used in digital systems for timing, control, state tracking, address generation, and protocol operation.
 
