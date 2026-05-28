@@ -15,6 +15,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 10: Shift Registers
 - Day 11: Counters
 - Day 12: Mod Counters
+- Day 13: Ring Counter and Johnson Counter
 
 ## Tools
 - Verilog HDL
