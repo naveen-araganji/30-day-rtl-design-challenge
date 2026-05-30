@@ -7,14 +7,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module clock_divider_counter (
-    input i_clk,
+    input      i_clk,
     output reg o_clk_div
 );
 
 reg [1:0] count;
 
 initial begin
-    count = 2'b0;
+    count     = 2'b0;
     o_clk_div = 1'b0; 
 end
 

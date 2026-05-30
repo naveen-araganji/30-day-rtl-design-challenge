@@ -7,12 +7,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module clock_divider_counter_tb;
-reg i_clk;
+reg  i_clk;
 wire o_clk_div;
 
 // ---------- DUT Instantiation ----------
 clock_divider_counter dut (
-    .i_clk (i_clk),
+    .i_clk     (i_clk),
     .o_clk_div (o_clk_div)
 );
 
