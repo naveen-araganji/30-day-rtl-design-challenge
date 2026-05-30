@@ -5,8 +5,6 @@ This project implements counter designs in Verilog HDL.
 
 Counters are essential sequential circuits used in digital systems for timing, control, state tracking, address generation, and protocol operation.
 
-This day focuses on automatic state progression, counting logic, directional counting, and control-driven sequential behavior.
-
 ---
 
 ## Implemented Modules

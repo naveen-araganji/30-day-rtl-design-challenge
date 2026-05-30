@@ -5,8 +5,6 @@ This project implements register designs in Verilog HDL.
 
 Registers are essential storage elements in digital systems and are widely used in processors, datapaths, counters, finite state machines, and pipeline architectures.
 
-This day focuses on synchronous data storage, load enable behavior, and asynchronous reset functionality.
-
 ---
 
 ## Implemented Modules
