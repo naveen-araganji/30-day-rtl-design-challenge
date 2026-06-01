@@ -18,6 +18,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 13: Ring Counter and Johnson Counter
 - Day 14: Clock Divider
 - Day 15: Sequence Detectors
+- Day 16: Traffic Light Controller
 
 ## Tools
 - Verilog HDL
