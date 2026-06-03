@@ -20,6 +20,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 15: Sequence Detectors
 - Day 16: Traffic Light Controller
 - Day 17: Debouncer
+- Day 18: Edge Detectors
 
 ## Tools
 - Verilog HDL
