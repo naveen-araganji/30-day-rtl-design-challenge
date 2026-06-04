@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module traffic_light_controller (
-    input i_clk,
+    input      i_clk,
     output reg o_red,
     output reg o_yellow,
     output reg o_green
@@ -15,15 +15,15 @@ module traffic_light_controller (
 
 reg [1:0] state;
 
-localparam RED = 2'b00,
-           GREEN = 2'b01,
+localparam RED    = 2'b00,
+           GREEN  = 2'b01,
            YELLOW = 2'b10;
 
 initial begin
-    state = RED;
-    o_red = 1'b1;
+    state    = RED;
+    o_red    = 1'b1;
     o_yellow = 2'b0;
-    o_green = 2'b0;
+    o_green  = 2'b0;
 end
 
 always @(posedge i_clk) begin

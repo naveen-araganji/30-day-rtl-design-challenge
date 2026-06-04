@@ -7,15 +7,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module debouncer (
-    input i_clk,
-    input i_button,
+    input      i_clk,
+    input      i_button,
     output reg o_button
 );
 
 reg [1:0] count;
 
 initial begin
-    count = 2'b0;
+    count    = 2'b0;
     o_button = 1'b0;
 end
 

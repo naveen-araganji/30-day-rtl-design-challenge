@@ -7,17 +7,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module traffic_light_controller_tb;
-reg i_clk;
+reg  i_clk;
 wire o_red;
 wire o_yellow;
 wire o_green;
 
 // ---------- DUT Instantiation ----------
 traffic_light_controller dut (
-    .i_clk (i_clk),
-    .o_red (o_red),
+    .i_clk    (i_clk),
+    .o_red    (o_red),
     .o_yellow (o_yellow),
-    .o_green (o_green)
+    .o_green  (o_green)
 );
 
 // ---------- Clock Generation ----------

@@ -7,13 +7,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module debouncer_tb;
-reg i_clk;
-reg i_button;
+reg  i_clk;
+reg  i_button;
 wire o_button;
 
 // ---------- DUT Instantiation ----------
 debouncer dut (
-    .i_clk (i_clk),
+    .i_clk    (i_clk),
     .i_button (i_button),
     .o_button (o_button)
 );
