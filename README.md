@@ -22,6 +22,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 17: Debouncer
 - Day 18: Edge Detectors
 - Day 19: Pulse Generator
+- Day 20: Synchronizer
 
 ## Tools
 - Verilog HDL
