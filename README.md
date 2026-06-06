@@ -23,6 +23,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 18: Edge Detectors
 - Day 19: Pulse Generator
 - Day 20: Synchronizer
+- Day 21: Arbiter
 
 ## Tools
 - Verilog HDL

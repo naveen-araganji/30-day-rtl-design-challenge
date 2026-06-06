@@ -7,16 +7,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module synchronizer_tb;
-reg i_clk;
-reg i_async_signal;
+reg  i_clk;
+reg  i_async_signal;
 
 wire o_sync_signal;
 
 // ---------- DUT Instantiation ----------
 synchronizer dut (
-    .i_clk (i_clk),
+    .i_clk          (i_clk),
     .i_async_signal (i_async_signal),
-    .o_sync_signal (o_sync_signal)
+    .o_sync_signal  (o_sync_signal)
 );
 
 // ---------- Clock Generator ----------
