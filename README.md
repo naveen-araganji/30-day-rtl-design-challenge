@@ -24,6 +24,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 19: Pulse Generator
 - Day 20: Synchronizer
 - Day 21: Arbiter
+- Day 22: FIFO
 
 ## Tools
 - Verilog HDL
