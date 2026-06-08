@@ -32,28 +32,25 @@ end
 
 always @(posedge i_clk) begin
 
-    // Simultaneous Write and Read
-    if (i_wr_en && !o_full && i_rd_en && !o_empty) begin
+    // Write Operation
+    if (i_wr_en && !o_full)begin
         mem[wr_ptr] <= i_data;
         wr_ptr <= wr_ptr + 1'b1;
-        o_data <= mem[rd_ptr];
-        rd_ptr <= rd_ptr + 1'b1;
-        count <= count;     // occupancy unchanged
     end
 
-    // Write Only
-    else if (i_wr_en && !o_full)begin
-        mem[wr_ptr] <= i_data;
-        wr_ptr <= wr_ptr + 1'b1;
-        count <= count + 1'b1;
-    end
-
-    // Read Only
-    else if (i_rd_en && !o_empty) begin
+    // Read Operation
+    if (i_rd_en && !o_empty) begin
         o_data <= mem[rd_ptr];
         rd_ptr <= rd_ptr + 1'b1;
-        count <= count - 1'b1;
     end
+    
+    // ---------- Count Tracking ----------
+    case ({i_wr_en && !o_full, i_rd_en && !o_empty})
+        2'b10 : count <= count + 1'b1; // Write Only
+        2'b01 : count <= count - 1'b1; // Read Only
+        2'b11 : count <= count;        // Simultaneous Read & Write
+        default : count <= count;      // No Operation
+        endcase
 end
 
 assign o_full = (count == 4);
