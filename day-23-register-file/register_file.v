@@ -7,12 +7,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module register_file (
-    input i_clk,
-    input i_wr_en,
-    input [1:0] i_wr_addr,
-    input [7:0] i_wr_data,
-    input [1:0] i_rd_addr1,
-    input [1:0] i_rd_addr2,
+    input        i_clk,
+    input        i_wr_en,
+    input  [1:0] i_wr_addr,
+    input  [7:0] i_wr_data,
+    input  [1:0] i_rd_addr1,
+    input  [1:0] i_rd_addr2,
     output [7:0] o_rd_data1,
     output [7:0] o_rd_data2
 );

@@ -26,6 +26,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 21: Arbiter
 - Day 22: FIFO
 - Day 23: Register File
+- Day 24: Barrel Shifter
 
 ## Tools
 - Verilog HDL

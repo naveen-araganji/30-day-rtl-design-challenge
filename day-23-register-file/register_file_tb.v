@@ -7,21 +7,21 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module register_file_tb;
-reg i_clk;
-reg i_wr_en;
-reg [1:0] i_wr_addr;
-reg [7:0] i_wr_data;
-reg [1:0] i_rd_addr1;
-reg [1:0] i_rd_addr2;
+reg        i_clk;
+reg        i_wr_en;
+reg  [1:0] i_wr_addr;
+reg  [7:0] i_wr_data;
+reg  [1:0] i_rd_addr1;
+reg  [1:0] i_rd_addr2;
 wire [7:0] o_rd_data1;
 wire [7:0] o_rd_data2;
 
 // ---------- DUT Instantiation ----------
 register_file dut (
-    .i_clk (i_clk),
-    .i_wr_en (i_wr_en),
-    .i_wr_addr (i_wr_addr),
-    .i_wr_data (i_wr_data),
+    .i_clk      (i_clk),
+    .i_wr_en    (i_wr_en),
+    .i_wr_addr  (i_wr_addr),
+    .i_wr_data  (i_wr_data),
     .i_rd_addr1 (i_rd_addr1),
     .i_rd_addr2 (i_rd_addr2),
     .o_rd_data1 (o_rd_data1),
