@@ -29,6 +29,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 24: Barrel Shifter
 - Day 25: UART Transmitter
 - Day 26: UART Receiver
+- Day 27: SPI Master
 
 ## Tools
 - Verilog HDL
