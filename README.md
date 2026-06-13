@@ -30,6 +30,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 25: UART Transmitter
 - Day 26: UART Receiver
 - Day 27: SPI Master
+- Day 28: SPI Slave
 
 ## Tools
 - Verilog HDL
