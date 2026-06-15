@@ -32,6 +32,7 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - Day 27: SPI Master
 - Day 28: SPI Slave
 - Day 29: RV32I Register File
+- Day 30: RV32I Decoder
 
 ## Tools
 - Verilog HDL
