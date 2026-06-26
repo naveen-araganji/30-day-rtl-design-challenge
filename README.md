@@ -42,4 +42,4 @@ This repository documents my RTL design learning journey in Verilog HDL.
 - GitHub
 
 ## Goal
-To strengthen RTL design and verification skills for VLSI / RTL design roles.
+To strengthen RTL design and verification skills for VLSI.
